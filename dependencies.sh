@@ -2,5 +2,6 @@ sudo apt-get install ffmpeg -y
 sudo apt-get install python-tk
 python -mpip install -U pip
 python -mpip install -U matplotlib
-pip install scikit-video
-pip install python-twitter
+python -mpip install -U python-twitter
+pip install scikit-video --user
+pip install python-twitter --user
